@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: parata;
+    src: url(./assets/fonts/Prata-Regular.ttf);
+}
+
+@font-face {
+    font-family: oswald;
+    src: url(./assets/fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: outfit;
+    src: url(./assets/fonts/Outfit-VariableFont_wght.ttf);
+}
