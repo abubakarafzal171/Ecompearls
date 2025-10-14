@@ -8,6 +8,11 @@ import hero5_img from '../assets/images/hero5_img.jpeg'
 import banner_img from '../assets/images/banner_img.avif'
 
 
+import iconE from '../assets/icons/letter-e.png'
+import iconC from '../assets/icons/letter-c.png'
+import iconO from '../assets/icons/letter-o.png'
+import iconM from '../assets/icons/letter-m.png'
+
 export const heroData = [
 hero_img , hero1_img , hero2_img , hero3_img , hero6_img , hero5_img
 ]
@@ -15,4 +20,8 @@ hero_img , hero1_img , hero2_img , hero3_img , hero6_img , hero5_img
 export const images = {
     banner_img,
     
+}
+
+export const icons = {
+iconE , iconC , iconO , iconM
 }
