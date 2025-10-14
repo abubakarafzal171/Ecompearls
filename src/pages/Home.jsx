@@ -4,6 +4,7 @@ import Marqueesection from '../components/Homepage/Marqueesection'
 import Aboutsection from '../components/Homepage/Aboutsection'
 import Ourservies from '../components/Homepage/Ourservies'
 import Numbersection from '../components/Homepage/numbersection'
+import Whychoose from '../components/Homepage/Whychoose'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Aboutsection/>
       <Ourservies/>
       <Numbersection/>
+      <Whychoose/>
     </div>
  
 

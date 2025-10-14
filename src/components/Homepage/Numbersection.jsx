@@ -11,7 +11,7 @@ const Numbersection = () => {
   return (
     <div 
       ref={ref}
-    className="w-full h-full  flex flex-col justify-center items-center gap-10 py-6 px-4">
+    className="w-full bg-gradient-to-r from-[#F9FAFB] to-[#F3F4F6] h-full lg:h-[80vh] flex flex-col justify-center items-center gap-10 pb-15 pt-10 px-4">
       <div className="top flex flex-col justify-center items-center gap-4 py-6">
         <h1 className="font-bold font-[outfit] text-4xl md:text-6xl lg:text-7xl">
           Boosting Businessess
