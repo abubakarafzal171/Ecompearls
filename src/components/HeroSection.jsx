@@ -24,7 +24,7 @@ const HeroSection = () => {
 
   return (
     <>
-      <div className=" w-full h-[85vh] flex flex-col md:flex-row justify-between gap-6 p-10  ">
+      <div className=" w-full h-full md:h-[85vh] flex flex-col md:flex-row justify-between gap-6 p-10">
         <div className="left flex flex-col gap-6 justify-center md:w-[50%]">
           <h1 className="text-5xl md:text-7xl lg:text-10xl font-bold font-[parata] md:leading-25">
             Driving <ReactTyped strings={['Sustainable Growth' , 'Digital Success' , 'Business Forward']} typeSpeed={60} backSpeed={40}  loop/>
@@ -68,7 +68,7 @@ const HeroSection = () => {
           <img
             src={images[currentImage]}
             alt="image"
-            className="lg:h-[500px] w-[850px] rounded"
+            className="lg:h-[500px] w-[850px] rounded "
           />
         </div>
       </div>

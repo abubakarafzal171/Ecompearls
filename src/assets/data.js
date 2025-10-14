@@ -5,8 +5,14 @@ import hero3_img from '../assets/images/hero3_img.jpg'
 import hero6_img from '../assets/images/hero6_img.webp'
 import hero5_img from '../assets/images/hero5_img.jpeg'
 
+import banner_img from '../assets/images/banner_img.avif'
+
 
 export const heroData = [
 hero_img , hero1_img , hero2_img , hero3_img , hero6_img , hero5_img
 ]
 
+export const images = {
+    banner_img,
+    
+}
