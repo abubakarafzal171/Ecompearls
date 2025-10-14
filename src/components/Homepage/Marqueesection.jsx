@@ -1,5 +1,5 @@
 import React from 'react'
-import {images} from '../assets/data'
+import {images} from '../../assets/data'
 const Marqueesection = () => {
     const slogans = [
   "Grow Your Business ",

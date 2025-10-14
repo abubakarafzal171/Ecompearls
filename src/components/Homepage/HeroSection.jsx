@@ -3,7 +3,7 @@ import { ReactTyped } from "react-typed";
 import { MdOutlineSecurity } from "react-icons/md";
 import { LuAppWindowMac } from "react-icons/lu";
 import { RiTeamFill } from "react-icons/ri";
-import { heroData } from "../assets/data";
+import { heroData } from "../../assets/data";
 const HeroSection = () => {
   const images = [
     heroData[0],

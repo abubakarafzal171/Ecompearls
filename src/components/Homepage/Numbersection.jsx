@@ -1,5 +1,5 @@
 import React from "react";
-import { icons } from "../assets/data";
+import { icons } from "../../assets/data";
 import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
 const Numbersection = () => {

@@ -1,9 +1,9 @@
 import React from 'react'
-import HeroSection from '../components/HeroSection'
-import Marqueesection from '../components/Marqueesection'
-import Aboutsection from '../components/Aboutsection'
-import Ourservies from '../components/Ourservies'
-import Numbersection from '../components/numbersection'
+import HeroSection from '../components/Homepage/HeroSection'
+import Marqueesection from '../components/Homepage/Marqueesection'
+import Aboutsection from '../components/Homepage/Aboutsection'
+import Ourservies from '../components/Homepage/Ourservies'
+import Numbersection from '../components/Homepage/numbersection'
 
 const Home = () => {
   return (
