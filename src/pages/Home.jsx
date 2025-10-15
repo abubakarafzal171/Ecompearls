@@ -5,6 +5,7 @@ import Aboutsection from '../components/Homepage/Aboutsection'
 import Ourservies from '../components/Homepage/Ourservies'
 import Numbersection from '../components/Homepage/numbersection'
 import Whychoose from '../components/Homepage/Whychoose'
+import FaqsandTestimonials from '../components/Homepage/FaqsandTestimonials'
 
 const Home = () => {
   return (
@@ -12,9 +13,10 @@ const Home = () => {
       <HeroSection/>
       <Marqueesection/>
       <Aboutsection/>
+        <Numbersection/>
       <Ourservies/>
-      <Numbersection/>
       <Whychoose/>
+      <FaqsandTestimonials/>
     </div>
  
 

@@ -13,7 +13,7 @@ const Numbersection = () => {
       ref={ref}
     className="w-full bg-gradient-to-r from-[#F9FAFB] to-[#F3F4F6] h-full lg:h-[80vh] flex flex-col justify-center items-center gap-10 pb-15 pt-10 px-4">
       <div className="top flex flex-col justify-center items-center gap-4 py-6">
-        <h1 className="font-bold font-[outfit] text-4xl md:text-6xl lg:text-7xl">
+        <h1 className="font-bold font-[outfit] text-4xl md:text-6xl lg:text-7xl text-amber-700">
           Boosting Businessess
         </h1>
         <p className=" text-center text-base md:text-md lg:text-lg text-gray-800">

@@ -25,3 +25,76 @@ export const images = {
 export const icons = {
 iconE , iconC , iconO , iconM
 }
+
+export const faqs = [
+  {
+    id: 1,
+    question: "What services do you provide for e-commerce businesses?",
+    answer: "We offer Amazon account management, digital marketing, brand optimization, and complete growth strategies."
+  },
+  {
+    id: 2,
+    question: "How many clients do you currently work with?",
+    answer: "We are proudly managing 300+ brands across multiple industries on Amazon and other marketplaces."
+  },
+  {
+    id: 3,
+    question: "What results have you achieved so far?",
+    answer: "We have generated over $70M+ in annual revenue for our clients and continue to grow year after year."
+  },
+  {
+    id: 4,
+    question: "How big is your team and company at field?",
+    answer: "We have 150+ skilled professionals across marketing, operations, and design departments."
+  },
+  {
+    id: 5,
+    question: "Why should I choose you over other agencies?",
+    answer: "Because our success is directly tied to our clients’ success — we are 100% focused on long-term client growth."
+  }
+];
+
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "James Carter",
+    position: "Founder, PrimeWear Co.",
+    feedback:
+      "Our brand struggled to scale on Amazon until we partnered with this team. They optimized our listings, managed ads, and within 6 months we hit $1M+ in monthly sales. True Amazon growth partners!",
+    image: "https://randomuser.me/api/portraits/men/41.jpg"
+  },
+  {
+    id: 2,
+    name: "Aisha Khan",
+    position: "CEO, NaturePure Organics",
+    feedback:
+      "Their Amazon expertise is unmatched. From A+ content to PPC campaigns, everything was handled flawlessly. We saw a 200% jump in organic rankings and revenue doubled in less than a year.",
+    image: "https://randomuser.me/api/portraits/women/52.jpg"
+  },
+  {
+    id: 3,
+    name: "Daniel Roberts",
+    position: "Co-Founder, SmartTech Gadgets",
+    feedback:
+      "We wasted money on ads before, but these guys completely turned things around. Our ACOS dropped by 35% and conversions went through the roof. Couldn’t have scaled without them.",
+    image: "https://randomuser.me/api/portraits/men/33.jpg"
+  },
+  {
+    id: 4,
+    name: "Sophia Martinez",
+    position: "Owner, CozyHome Essentials",
+    feedback:
+      "Their approach to Amazon brand management is next-level. We were stuck at $50K/month revenue, and now we’re consistently crossing $250K/month. They know exactly how to win on Amazon.",
+    image: "https://randomuser.me/api/portraits/women/67.jpg"
+  },
+  {
+    id: 5,
+    name: "Ahmed Ali",
+    position: "Managing Director, Global Traders",
+    feedback:
+      "What impressed me most is their transparency and data-driven decisions. Our international Amazon expansion was seamless with their help. Today, we sell in 5 marketplaces with strong profitability.",
+    image: "https://randomuser.me/api/portraits/men/25.jpg"
+  }
+];
+
