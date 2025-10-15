@@ -12,6 +12,7 @@ import About from './pages/About'
 import Socials from './pages/Socials'
 import Location from './pages/Location'
 import Contact from './pages/Contact'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
   <Route path='/contact' element={<Contact/>}/>
 </Routes>
 
+<Footer/>
 </>
   )
 }

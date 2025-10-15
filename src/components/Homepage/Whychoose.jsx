@@ -8,7 +8,7 @@ import { RiRocketLine } from "react-icons/ri";
 
 const Whychoose = () => {
   return (
-    <div className="py-16 m:pb-60 px-4 h-full w-full bg-[#F9FAFB]">
+    <div className="py-16 md:pb-60 px-4 h-full w-full bg-[#F9FAFB]">
       {/* Top Section */}
       <div className="top pb-12 flex flex-col gap-6 justify-center items-center font-[outfit]">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900">
