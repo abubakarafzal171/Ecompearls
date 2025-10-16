@@ -2,7 +2,7 @@ import React from 'react'
 import Banner from '../components/Banner'
 import Cta from '../components/Cta'
 import Ourservices from '../components/Homepage/Ourservies'
-import Numbersection from '../components/Homepage/numbersection'
+import Numbersection from '../components/Homepage/Numbersection'
 const Services = () => {
   return (
     <div className='w-full h-full py-6'>
