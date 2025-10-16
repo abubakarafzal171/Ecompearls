@@ -13,6 +13,20 @@ import iconC from '../assets/icons/letter-c.png'
 import iconO from '../assets/icons/letter-o.png'
 import iconM from '../assets/icons/letter-m.png'
 
+
+import img1 from '../assets/images/team/1.jpeg'
+import img2 from '../assets/images/team/2.jpeg'
+import img3 from '../assets/images/team/3.jpeg'
+import img4 from '../assets/images/team/4.jpeg'
+import img5 from '../assets/images/team/5.jpeg'
+import img6 from '../assets/images/team/6.jpeg'
+import img7 from '../assets/images/team/7.jpeg'
+import img8 from '../assets/images/team/8.jpeg'
+import img9 from '../assets/images/team/9.jpeg'
+import img10 from '../assets/images/team/10.jpeg'
+import img11 from '../assets/images/team/11.jpeg'
+import img12 from '../assets/images/team/12.jpeg'
+
 export const heroData = [
 hero_img , hero1_img , hero2_img , hero3_img , hero6_img , hero5_img
 ]
@@ -97,4 +111,74 @@ export const testimonials = [
     image: "https://randomuser.me/api/portraits/men/25.jpg"
   }
 ];
+
+export const team_data = [
+  {
+    image: img1,
+    name: 'Ali Saeed',
+    post: 'COO'
+  },
+   {
+    image: img2,
+    name: 'Sami Sam',
+    post: 'General Manager'
+  },
+   {
+    image: img3,
+    name: 'Ahmad Jutt',
+    post: 'Senior Manager'
+  },
+   {
+    image: img4,
+    name: 'Adil Sukhera',
+    post: 'Senior Manager'
+  },
+   {
+    image: img5,
+    name: 'Ayesha Israr',
+    post: 'GM Elite Team'
+  },
+   {
+    image: img6,
+    name: 'Waleed Abid',
+    post: 'Senior manager'
+  },
+   {
+    image: img7,
+    name: 'Fareed Wattu',
+    post: 'Admin Manager'
+  },
+   {
+    image: img8,
+    name: 'Meer Haseeb',
+    post: 'Senior Manager'
+  },
+   {
+    image: img9,
+    name: 'Mr. Majid',
+    post: 'Manager'
+  },
+   {
+    image: img10,
+    name: 'Ahmad Raza',
+    post: 'Manager'
+  },
+   {
+    image: img11,
+    name: 'Ali Raza',
+    post: 'Manager'
+  },
+   {
+    image: img12,
+    name: 'Waleed ',
+    post: 'Manager'
+  },
+
+
+];
+
+
+
+
+
 

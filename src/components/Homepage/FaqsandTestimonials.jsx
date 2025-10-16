@@ -17,10 +17,10 @@ const FaqsandTestimonials = () => {
 
 <div className="mb-10">
     {
-    faqs.map((item , index)=>{
+    faqs.map((item , i)=>{
         return <>
         <div 
-        key={index}
+        key={i}
         className='flex flex-col md:flex-row justify-start items-center gap-10 md:gap-16  px-2 hover:scale-101 p-8 rounded transition-all duration-200'>
 <h1 className='font-bold text-5xl font-[oswald] text-blue-800'>{item.id}</h1>
 <h2 className='font-bold text-xl lg:text-2xl text-blue-800'>{item.question}</h2>

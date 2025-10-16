@@ -14,7 +14,7 @@ const Home = () => {
       <Marqueesection/>
       <Aboutsection/>
         <Numbersection/>
-      <Ourservies/>
+      <Ourservies bg={'#FFA550'}/>
       <Whychoose/>
       <FaqsandTestimonials/>
     </div>

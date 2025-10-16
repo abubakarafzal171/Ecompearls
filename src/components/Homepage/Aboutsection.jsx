@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Aboutsection = () => {
   return (
@@ -15,7 +16,7 @@ const Aboutsection = () => {
           our expertise, proven strategies, and commitment to excellence, we
           empower brands to scale globally and achieve sustainable growth
         </p>
-        <button className="rounded-full bg-[#FFA550] font-light text-lg border px-4 py-2 w-fit cursor-pointer hover:bg-gray-800 hover:text-white transition-all duration-200">Discover More</button>
+        <Link to={'/about'} className="rounded-full bg-[#FFA550] font-light text-lg border px-4 py-2 w-fit cursor-pointer hover:bg-gray-800 hover:text-white transition-all duration-200">Discover More</Link>
       </div>
     </div>
   );

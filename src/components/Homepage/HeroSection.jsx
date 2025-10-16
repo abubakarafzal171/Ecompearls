@@ -4,6 +4,7 @@ import { MdOutlineSecurity } from "react-icons/md";
 import { LuAppWindowMac } from "react-icons/lu";
 import { RiTeamFill } from "react-icons/ri";
 import { heroData } from "../../assets/data";
+import { Link } from "react-router-dom";
 const HeroSection = () => {
   const images = [
     heroData[0],
@@ -33,9 +34,9 @@ const HeroSection = () => {
             Get Proffessional E-commerce Services from our Team Experts that
             help you to grow your business
           </p>
-          <button className="rounded bg-black text-white font-[oswald] w-[180px] h-[40px] cursor-pointer hover:border-black border hover:bg-white hover:text-black transition-all duration-200">
+        <Link to={'/contact'}>  <button className="rounded bg-black text-white font-[oswald] w-[180px] h-[40px] cursor-pointer hover:border-black border hover:bg-white hover:text-black transition-all duration-200">
             Get Started
-          </button>
+          </button></Link>
           <div className="flex flex-col md:flex-row gap-6 md:gap-12 justify-start pt-10 ">
             <div className="flex  gap-2 items-center">
               <div className="icon  text-4xl">

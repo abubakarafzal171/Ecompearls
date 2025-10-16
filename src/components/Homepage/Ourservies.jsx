@@ -3,9 +3,10 @@ import { FaSearchengin } from "react-icons/fa6";
 import { MdScreenSearchDesktop } from "react-icons/md";
 import { AiOutlineStock } from "react-icons/ai";
 import { BsFillSendFill } from "react-icons/bs";
-const Ourservies = () => {
+const Ourservies = ({bg}) => {
   return (
-    <div className="w-full h-full flex flex-col justify-start items-center px-4 py-6 bg-[#FFA550] pt-15 gap-15 pb-20">
+   <>
+    <div className={`w-full h-full flex flex-col justify-start items-center px-4 py-6 bg-[${bg}] pt-15 gap-15 pb-20`}>
       <div className="left  flex flex-col justify-start items-center gap-8 px-6">
         <h1 className="fontbold text-5xl md:text-7xl font-[parata]">
           Our Servies
@@ -70,6 +71,7 @@ const Ourservies = () => {
         </div>
       </div>
     </div>
+   </>
   );
 };
 
