@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <>
       {/* screen part */}
-      <div className="w-full h-[8vh]  flex justify-between items-center px-4 mt-4 font-[oswald] sticky top-0 z-40 bg-white shadow-lg">
+      <div className="w-full h-[8vh]  flex justify-between items-center px-4 mt-2 font-[oswald] sticky top-0 z-40 bg-white shadow-lg">
         <NavLink to={"/"} className="left flex items-center">
           <img
             src="logo.png"

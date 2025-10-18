@@ -13,12 +13,12 @@ import Socials from './pages/Socials'
 import Location from './pages/Location'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
-
+import ScrollToTop from './components/ScrollToTop'
 const App = () => {
   return (
 <>
 <Navbar/>
-
+<ScrollToTop/>
 <Routes>
   <Route path='/' element={<Home/>}/>
   <Route path='/objective' element={<Objective/>}/>
